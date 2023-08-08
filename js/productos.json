@@ -1,0 +1,388 @@
+[
+    {   
+        "id": 1,   
+        "nombre": "iPhone SE",
+        "modelo": "SE",
+        "imagen": [
+            "img/iPhoneSE/iPhonese.png",
+            "img/iPhoneSE/iPhonese1.jpg",
+            "img/iPhoneSE/iPhonese2.png",
+            "img/iPhoneSE/iPhonese3.png",
+            "img/iPhoneSE/iPhonese4.png"
+        ],
+        "informacion": {
+            "pantalla": "Retina HD de 4.7 pulgadas",
+            "resolucion": "1334 x 750 píxeles",
+            "procesador": "Chip A13 Bionic",
+            "camara": "Cámara de 12 MP",
+            "almacenamiento": [
+                "64 GB",
+                "128 GB",
+                "256 GB"
+            ],
+            "colores": [
+                "Negro",
+                "Blanco",
+                "Rojo"
+            ]
+        },
+        "variantes": [
+            {
+                "precio": 399,
+                "almacenamiento": 64
+            },
+            {
+                "precio": 449,
+                "almacenamiento": 128
+            },
+            {
+                "precio": 549,
+                "almacenamiento": 256
+            }
+        ]
+    },
+    {
+       "id": 2,
+        "nombre": "iPhone 11",
+        "modelo": "11",
+        "imagen": [
+            "img/iPhone11/iPhone-11-1.jpg",
+            "img/iPhone11/iPhone-11-rojo.jpg",
+            "img/iPhone11/iPhone-11-verde.jpg",
+            "img/iPhone11/iPhone11.jpg"
+        ],
+        "informacion": {
+            "pantalla": "Liquid Retina HD de 6.1 pulgadas",
+            "resolucion": "1792 x 828 píxeles",
+            "procesador": "Chip A13 Bionic",
+            "camara": "Cámara dual de 12 MP",
+            "almacenamiento": [
+                "128 GB",
+                "256 GB"
+            ],
+            "colores": [
+                "Negro",
+                "Verde",
+                "Amarillo",
+                "Product (RED)"
+            ]
+        },
+        "variantes": [
+            {
+                "precio": 580,
+                "almacenamiento": 64
+            },
+            {
+                "precio": 660,
+                "almacenamiento": 128
+            }
+        ]
+    },
+    {   
+        "id": 3,
+        "nombre": "iPhone 11 Pro",
+        "modelo": "11 Pro",
+        "imagen": [
+            "img/iPhone11Pro/iPhone11Pro.png",
+            "img/iPhone11Pro/iPhone11Pro1.png"
+        ],
+        "informacion": {
+            "pantalla": "Super Retina XDR de 5.8 pulgadas",
+            "resolucion": "2436 x 1125 píxeles",
+            "procesador": "Chip A13 Bionic",
+            "camara": "Cámara triple de 12 MP",
+            "almacenamiento": [
+                "256 GB",
+                "512 GB"
+            ],
+            "colores": [
+                "Gris espacial",
+                "Plata",
+                "Oro",
+                "Verde medianoche"
+            ]
+        },
+        "variantes": [
+            {
+                "precio": 899,
+                "almacenamiento": 256
+            },
+            {
+                "precio": 999,
+                "almacenamiento": 512
+            }
+        ]
+    },
+    {   
+        "id": 4,
+        "nombre": "iPhone 12",
+        "modelo": "12",
+        "imagen": [
+            "img/iPhone12/iPhone12.png",
+            "img/iPhone12/1iPhone12.png",
+            "img/iPhone12/2iPhone12.png",
+            "img/iPhone12/3iPhone12.png",
+            "img/iPhone12/4iPhone12.png"
+        ],
+        "informacion": {
+            "pantalla": "Super Retina XDR de 6.1 pulgadas",
+            "resolucion": "2532 x 1170 píxeles",
+            "procesador": "Chip A14 Bionic",
+            "camara": "Cámara dual de 12 MP",
+            "almacenamiento": [
+                "128 GB",
+                "256 GB"
+            ],
+            "colores": [
+                "Blanco",
+                "Negro",
+                "Verde",
+                "Azul",
+                "Rojo"
+            ]
+        },
+        "variantes": [
+            {
+                "precio": 759,
+                "almacenamiento": 128
+            },
+            {
+                "precio": 879,
+                "almacenamiento": 256
+            }
+        ]
+    },
+    {   
+        "id": 5,
+        "nombre": "iPhone 12 Pro",
+        "modelo": "12 Pro",
+        "imagen": [
+            "img/iPhone12Pro/iPhone12Pro3.png",
+            "img/iPhone12Pro/iPhone12Pro1.png",
+            "img/iPhone12Pro/iPhone12Pro2.png",
+            "img/iPhone12Pro/iPhone12Pro.png"
+        ],
+        "informacion": {
+            "pantalla": "Super Retina XDR de 6.1 pulgadas",
+            "resolucion": "2532 x 1170 píxeles",
+            "procesador": "Chip A14 Bionic",
+            "camara": "Cámara triple de 12 MP",
+            "almacenamiento": [
+                "128 GB",
+                "256 GB",
+                "512 GB"
+            ],
+            "colores": [
+                "Gris espacial",
+                "Plata",
+                "Oro",
+                "Azul pacífico"
+            ]
+        },
+        "variantes": [
+            {
+                "precio": 930,
+                "almacenamiento": 128
+            },
+            {
+                "precio": 1050,
+                "almacenamiento": 256
+            },
+            {
+                "precio": 1250,
+                "almacenamiento": 512
+            }
+        ]
+    },
+    {   
+        "id": 6,
+        "nombre": "iPhone 13",
+        "modelo": "13",
+        "imagen": [
+            "img/iPhone13/iPhone13.png",
+            "img/iPhone13/1iPhone13.png",
+            "img/iPhone13/2iPhone13.png",
+            "img/iPhone13/3iPhone13.jpg",
+            "img/iPhone13/4iPhone13.png"
+        ],
+        "informacion": {
+            "pantalla": "Super Retina XDR de 6.1 pulgadas",
+            "resolucion": "2532 x 1170 píxeles",
+            "procesador": "Chip A15 Bionic",
+            "camara": "Cámara dual de 12 MP",
+            "almacenamiento": [
+                "128 GB",
+                "256 GB",
+                "512 GB",
+                "1 TB"
+            ],
+            "colores": [
+                "Rosa",
+                "Azul",
+                "Medianoche",
+                "Estrella de medianoche",
+                "Product (RED)"
+            ]
+        },
+        "variantes": [
+            {
+                "precio": 799,
+                "almacenamiento": 128
+            },
+            {
+                "precio": 899,
+                "almacenamiento": 256
+            },
+            {
+                "precio": 1099,
+                "almacenamiento": 512
+            },
+            {
+                "precio": 1299,
+                "almacenamiento": 1000
+            }
+        ]
+    },
+    {   
+        "id": 7,
+        "nombre": "iPhone 13 Pro",
+        "modelo": "13 Pro",
+        "imagen": [
+            "img/iPhone13Pro/iPhone13Pro.png",
+            "img/iPhone13Pro/iPhone13Pro1.png",
+            "img/iPhone13Pro/iPhone13Pro2.png",
+            "img/iPhone13Pro/iPhone13Pro3.png",
+            "img/iPhone13Pro/iPhone13Pro4.png"
+        ],
+        "informacion": {
+            "pantalla": "Super Retina XDR de 6.1 pulgadas",
+            "resolucion": "2532 x 1170 píxeles",
+            "procesador": "Chip A15 Bionic",
+            "camara": "Cámara triple de 12 MP",
+            "almacenamiento": [
+                "128 GB",
+                "256 GB",
+                "512 GB",
+                "1 TB"
+            ],
+            "colores": [
+                "Gris grafito",
+                "Plateado",
+                "Oro",
+                "Azul sierra"
+            ]
+        },
+        "variantes": [
+            {
+                "precio": 999,
+                "almacenamiento": 128
+            },
+            {
+                "precio": 1099,
+                "almacenamiento": 256
+            },
+            {
+                "precio": 1299,
+                "almacenamiento": 512
+            },
+            {
+                "precio": 1499,
+                "almacenamiento": 1000
+            }
+        ]
+    },
+    {   
+        "id": 8 ,
+        "nombre": "iPhone 14",
+        "modelo": "14",
+        "imagen": [
+            "img/iPhone14/iPhone14.png",
+            "img/iPhone14/2iPhone14.png",
+            "img/iPhone14/3iPhone14.png"
+        ],
+        "informacion": {
+            "pantalla": "Super Retina XDR de 6.1 pulgadas",
+            "resolucion": "2532 x 1170 píxeles",
+            "procesador": "Chip A15 Bionic",
+            "camara": "Cámara dual de 12 MP",
+            "almacenamiento": [
+                "128 GB",
+                "256 GB",
+                "512 GB",
+                "1 TB"
+            ],
+            "colores": [
+                "Negro",
+                "Blanco",
+                "Rojo",
+                "Verde",
+                "Azul"
+            ]
+        },
+        "variantes": [
+            {
+                "precio": 999,
+                "almacenamiento": 128
+            },
+            {
+                "precio": 1099,
+                "almacenamiento": 256
+            },
+            {
+                "precio": 1299,
+                "almacenamiento": 512
+            },
+            {
+                "precio": 1499,
+                "almacenamiento": 1000
+            }
+        ]
+    },
+    {   
+        "id": 9,
+        "nombre": "iPhone 14 Pro",
+        "modelo": "14 Pro",
+        "imagen": [
+            "img/iPhone14Pro/iPhone14Pro.png",
+            "img/iPhone14Pro/iPhone14Pro2.jpg",
+            "img/iPhone14Pro/iPhone14Pro3.png",
+            "img/iPhone14Pro/iPhone14Pro4.png"
+        ],
+        "informacion": {
+            "pantalla": "Super Retina XDR de 6.1 pulgadas",
+            "resolucion": "2532 x 1170 píxeles",
+            "procesador": "Chip A15 Bionic",
+            "camara": "Cámara triple de 12 MP",
+            "almacenamiento": [
+                "128 GB",
+                "256 GB",
+                "512 GB",
+                "1 TB"
+            ],
+            "colores": [
+                "Gris espacial",
+                "Plata",
+                "Oro",
+                "Azul"
+            ]
+        },
+        "variantes": [
+            {
+                "precio": 1199,
+                "almacenamiento": 128
+            },
+            {
+                "precio": 1299,
+                "almacenamiento": 256
+            },
+            {
+                "precio": 1499,
+                "almacenamiento": 512
+            },
+            {
+                "precio": 1699,
+                "almacenamiento": 1000
+            }
+        ]
+    }
+]

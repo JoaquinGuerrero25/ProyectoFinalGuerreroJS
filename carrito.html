@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Carrito</title>
+    <script src="js/index.js"></script>
+</head>
+<body>
+    <header>
+        <div class="titulo-header">
+            <a href="index.html"><h1>iParadise<i class="fa-brands fa-apple"></i></h1></a> 
+        </div>
+        <div class="nav-header">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="carrito.html"><i class="fas fa-cart-shopping"></i></a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <h3 id="mensajeCarritoVacio"></h3>
+    <div id="carritoContainer" class="carritoContainer"></div>
+    <div id="totalContainer" class="total-container"></div>
+    <div id="botonContainer"></div>
+    <footer class="footer-carrito">
+        <div class="footer-links">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="carrito.html">Carrito</a></li>
+            </ul>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2023 iParadise. Todos los derechos reservados.</p>
+        </div>
+        <div class="payment-methods">
+            <h3>Métodos de Pago</h3>
+            <ul>
+                <li>
+                    <img src="img/footer/visa.jpg" alt="Visa">
+                    <img src="img/footer/mastercard.png" alt="Mastercard">
+                </li>
+            </ul>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.20/dist/sweetalert2.all.min.js"></script>
+    <script src="js/carrito.js"></script>
+    <script src="js/checkout.js"></script>
+</body>
+</html>

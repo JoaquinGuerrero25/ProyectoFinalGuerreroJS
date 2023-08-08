@@ -1,0 +1,484 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+/* font-family: 'Roboto', sans-serif; */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    background-color: #EEEDED;
+}
+
+header {
+    background-color: #e0dddd;
+    color: #000;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.titulo-header a {
+    text-decoration: none;
+    text-shadow: 2px 2px 2px #00000011;
+}
+
+.titulo-header h1 {
+    margin: 0;
+    font-size: 32px;
+    color: #000;
+    font-weight: lighter;
+}
+
+.nav-header ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    font-weight:lighter;
+}
+
+.nav-header ul li {
+    margin-right: 20px;
+}
+
+.nav-header ul li:last-child {
+    margin-right: 0;
+}
+
+.nav-header ul li a {
+    color: #000;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease-in-out;
+}
+
+.nav-header ul li a i {
+    margin-right: 5px;
+}
+
+/* Estilos de las animaciones */
+.nav-header ul li a:hover {
+    color: #ffcc00;
+}
+
+.nav-header ul li a.active {
+    color: #ffcc00;
+    font-weight: bold;
+}
+
+.nav-header ul li a.active:after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 2px;
+    background-color: #ffcc00;
+    transition: width 0.3s ease-in-out;
+}
+
+.nav-header ul li a.active:hover:after {
+    width: 100%;
+}
+
+/*img portada*/
+.img-portada {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    box-shadow: 10px 10px 10px #00000011;
+}
+
+.h2-tienda{
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 50px;
+    font-size: 60px;
+    text-align: center;
+    text-shadow: 5px 5px 5px #00000021;
+}
+
+
+/*estilo de cards*/
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 95%;
+    margin: auto;
+    gap: 20px;
+    padding: 100px;
+}
+
+.card h3 {
+    font-weight: bold;
+    margin-top: 20px;
+    font-size: 25px;
+    text-align: start;
+    margin-left: 20px;
+    margin-bottom: 25px;
+}
+
+.card {
+    width: 360px;
+    height: 470px;
+    margin-bottom: 20px;
+    padding: 0px;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px #4b4b4b17;
+    background-color: #ffff;
+}
+
+
+.card img {
+    width: auto;
+    height: 300px;
+    object-fit: cover;
+}
+
+.card a {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    margin-top: 10px;
+    margin-left: 3px;
+    cursor: pointer;
+}
+
+.card a:hover {
+    background-color: #0056b3;
+}
+
+
+.error-inicio{
+    color: #000000;
+    padding: 20px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 8px;
+    margin: 20px auto;
+    max-width: 400px;
+}
+
+/* Pagina detalle.html */
+.container {
+    display: flex;
+    align-items: flex-start;
+    width: 70%;
+    margin: 100px auto;
+    height: auto;
+}
+
+.imagenes-primarias-secundarias {
+    flex: 1;
+    padding: 20px;
+    border-right: 1px solid #ccc;
+}
+
+.imagen-principal {
+    max-width: 500px;
+    height: auto;
+}
+
+.imagenes-secundarias {
+    display: flex;
+    margin-top: 10px;
+}
+
+.imagen-pequena {
+    width: 80px;
+    height: auto;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: filter 0.2s ease;
+}
+
+.imagen-pequena:hover {
+    filter: grayscale(100%);
+}
+
+.informacion-celular {
+    flex: 1;
+    padding: 20px;
+}
+
+.informacion-celular h2 {
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.informacion-celular p {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.informacion-celular p i {
+    margin-right: 9px;
+    font-size: 25px;
+}
+
+.informacion-celular .precio {
+    font-weight: lighter;
+    margin-bottom: 20px;
+}
+
+select {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: #f9f9f9;
+    color: #333;
+    width: 200px;
+    margin-bottom: 10px;
+}
+
+#botonComprar {
+    padding: 10px 20px;
+    text-decoration: none;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+#botonComprar:hover {
+    background-color: #0056b3;
+}
+
+/* carrito.html */
+#mensajeCarritoVacio {
+    color: red; /* Cambia el color del texto a rojo */
+    font-size: 18px; /* Cambia el tamaño de fuente a 18px */
+    font-style: italic; /* Aplica estilo de letra cursiva */
+    text-align: center; /* Centra el texto horizontalmente */
+    margin-top: 20px; /* Añade un margen superior de 20px */
+}
+
+
+.carritoContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.carrito-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    margin: 20px;
+    border-bottom: 1px solid #00000028;
+}
+
+.carrito-item img {
+    width: 80px;
+    margin: 20px;
+}
+
+.carrito-item p {
+    margin: 60px;
+}
+
+.carrito-item h3 {
+    font-size: 23px;
+    margin-right: 10px;
+}
+
+.carrito-item button {
+    margin-left: auto;
+    background-color: #f00;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 30px;
+}
+
+.carrito-item button:hover {
+    background-color: #c00;
+}
+
+.total-container {
+    font-weight: bolder;
+    font-size: 30px;
+    margin: 10px;
+}
+
+#botonComprarCarrito {
+    margin: 10px;
+    padding: 10px 20px;
+    text-decoration: none;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+#botonComprarCarrito:hover {
+    background-color: #0056b3;
+}
+
+.titulo-resumen {
+    font-size: 24px;
+    margin-bottom: 10px;
+    margin: 10px;
+}
+
+.resumen-carrito-container {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.resumen-carrito-container h3 {
+    margin: 0;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.resumen-carrito-container p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.resumen-carrito-container hr {
+    margin: 10px 0;
+    border: none;
+    border-top: 1px solid #ccc;
+}
+
+.resumen-total-container {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.resumen-carrito-container {
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+.resumen-carrito-container h3 {
+    color: #333;
+}
+
+.resumen-total-container {
+    text-align: right;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-top: 1px solid #ccc;
+}
+
+/* Estilos para el formulario */
+#formularioCompra {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Estilos para las etiquetas */
+#formularioCompra label {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Estilos para los campos de entrada */
+#formularioCompra input[type="text"],
+#formularioCompra input[type="email"],
+#formularioCompra input[type="month"],
+#formularioCompra select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Estilos para el botón de realizar compra */
+#formularioCompra button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+#formularioCompra button:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    background-color: #f0f0f0;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 200px;
+}
+
+.footer-carrito{
+    margin-top: 600px;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.footer-links li {
+    margin-right: 20px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+}
+
+.payment-methods {
+    display: flex;
+    align-items: center;
+}
+
+.payment-methods h3 {
+    font-size: 18px;
+    margin-right: 20px;
+}
+
+.payment-methods ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.payment-methods li {
+    margin-left: 10px;
+}
+
+.payment-methods img {
+    width: 40px;
+}
+
+.footer-bottom {
+    margin-top: 20px;
+}

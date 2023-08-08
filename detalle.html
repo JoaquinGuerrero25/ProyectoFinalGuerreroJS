@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>iPhone</title>
+</head>
+<body>
+    <header>
+        <div class="titulo-header">
+            <a href="index.html"><h1>iParadise<i class="fa-brands fa-apple"></i></h1></a> 
+        </div>
+        <div class="nav-header">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="carrito.html"><i class="fas fa-cart-shopping"></i></a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="container">
+        <div class="imagenes-primarias-secundarias">
+            <img class="imagen-principal" src="" alt="Imagen principal">
+            <div class="imagenes-secundarias">
+                <img class="imagen-pequena" src="" alt="Imagen 1">
+                <img class="imagen-pequena" src="" alt="Imagen 2">
+                <img class="imagen-pequena" src="" alt="Imagen 3">
+                <img class="imagen-pequena" src="" alt="Imagen 4">
+                <img class="imagen-pequena" src="" alt="Imagen 5">
+            </div>
+        </div>
+        <div class="informacion-celular">
+            <h2 class="nombre-iphone"></h2>
+            <p><span class="pantalla-icono"><i class="fa-solid fa-mobile-screen-button"></i></span> Pantalla: </p>
+            <p><span class="resolucion-icono"><i class="fa-solid fa-image"></i></span> Resolución: </p>
+            <p><span class="procesador-icono"><i class="fa-solid fa-microchip"></i></span> Procesador: </p>
+            <p><span class="camara-icono"><i class="fa-solid fa-camera"></i></span> Cámara: </p>
+            <p><span class="almacenamiento-icono"><i class="fa-solid fa-hdd"></i></span> Almacenamiento: </p>
+            <p><span class="colores-icono"><i class="fa-solid fa-palette"></i></span> Colores: </p>
+            <select id="seleccionarColor">
+                <option value="color1">Color 1</option>
+                <option value="color2">Color 2</option>
+            </select>
+            <select id="seleccionarAlmacenamiento">
+                <option value="almacenamiento1">Almacenamiento 1</option>
+                <option value="almacenamiento2">Almacenamiento 2</option>
+            </select>
+            <p class="precio"></p>
+            <a href="#" class="botonComprar" id="botonComprar">Comprar</a>
+        </div>
+    </div>
+    <footer>
+        <div class="footer-links">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="carrito.html">Carrito</a></li>
+            </ul>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2023 iParadise. Todos los derechos reservados.</p>
+        </div>
+        <div class="payment-methods">
+            <h3>Métodos de Pago</h3>
+            <ul>
+                <li>
+                    <img src="img/footer/visa.jpg" alt="Visa">
+                    <img src="img/footer/mastercard.png" alt="Mastercard">
+                </li>
+            </ul>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.20/dist/sweetalert2.all.min.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/detalle.js"></script>
+    <script src="js/carrito.js"></script>
+</body>
+</html>

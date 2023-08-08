@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Carrito</title>
+    <script src="js/index.js"></script>
+</head>
+<body>
+    <header>
+        <div class="titulo-header">
+            <a href="../index.html"><h1>iParadise<i class="fa-brands fa-apple"></i></h1></a> 
+        </div>
+        <div class="nav-header">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="carrito.html"><i class="fas fa-cart-shopping"></i></a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <h2 class="titulo-resumen">Resumen</h2>
+    <div id="resumenCarrito" class="resumen-carrito-container"></div>
+    <div id="totalCarrito" class="resumen-total-container"></div>
+    <h2>Formulario de Compra</h2>
+    <form id="formularioCompra">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required pattern="[A-Za-z ]+" title="Ingresa solo letras y espacios" />
+    
+        <label for="apellido">Apellido:</label>
+        <input type="text" id="apellido" name="apellido" required pattern="[A-Za-z ]+"
+            title="Ingresa solo letras y espacios" />
+    
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+    
+        <label for="direccion">Dirección:</label>
+        <input type="text" id="direccion" name="direccion" required />
+    
+        <label for="dni">DNI:</label>
+        <input type="text" id="dni" name="dni" required pattern="[0-9]{8}" title="Ingresa un DNI válido de 8 dígitos" />
+    
+        <label for="tarjeta">Tarjeta:</label>
+        <select id="tarjeta" name="tarjeta" required>
+            <option value="visa">Visa</option>
+            <option value="mastercard">Mastercard</option>
+        </select>
+    
+        <label for="numeroTarjeta">Número de Tarjeta:</label>
+        <input type="text" id="numeroTarjeta" name="numeroTarjeta" required pattern="[0-9]{16}"
+            title="Ingresa un número de tarjeta válido de 16 dígitos" />
+    
+        <label for="cvv">CVV:</label>
+        <input type="text" id="cvv" name="cvv" required pattern="[0-9]{3}" title="Ingresa un CVV válido de 3 dígitos" />
+    
+        <label for="fechaVencimiento">Fecha de Vencimiento:</label>
+        <select id="mesVencimiento" name="mesVencimiento" required>
+            <option value="01">01</option>
+            <option value="02">02</option>
+            <option value="03">03</option>
+            <option value="04">04</option>
+            <option value="05">05</option>
+            <option value="06">06</option>
+            <option value="07">07</option>
+            <option value="08">08</option>
+            <option value="09">09</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+            <option value="12">12</option>
+        </select>
+        <select id="anioVencimiento" name="anioVencimiento" required>
+            <option value="23">2023</option>
+            <option value="24">2024</option>
+            <option value="25">2025</option>
+            <option value="26">2026</option>
+            <option value="27">2027</option>
+            <option value="28">2028</option>
+            <option value="29">2029</option>
+            <option value="30">2030</option>
+            <option value="31">2031</option>
+            <option value="32">2032</option>
+        </select>
+        <button type="button" onclick="validarYGuardarDatos()">Realizar Compra</button>
+    </form>
+    <footer class="footer-carrito">
+        <div class="footer-links">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="carrito.html">Carrito</a></li>
+            </ul>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2023 iParadise. Todos los derechos reservados.</p>
+        </div>
+        <div class="payment-methods">
+            <h3>Métodos de Pago</h3>
+            <ul>
+                <li>
+                    <img src="img/footer/visa.jpg" alt="Visa">
+                    <img src="img/footer/mastercard.png" alt="Mastercard">
+                </li>
+            </ul>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.20/dist/sweetalert2.all.min.js"></script>
+    <script src="js/carrito.js"></script>
+    <script src="js/checkout.js"></script>
+</body>
+</html>
